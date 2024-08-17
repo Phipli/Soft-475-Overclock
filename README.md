@@ -1,6 +1,8 @@
 # Soft-475-Overclock
 If you wish to compile this project on the classic Mac OS, you should take the .hqx or MacBinary versions. Github modifies files by changing newlines to a different format, and also files that have resource forks, not protected by being an hqx or .bin will have been corrupted. I'm not sure what the best way of managing this is, so I've done multiple things to ensure that while messy, the data is preserved, but also easily readable.
 
+I may be wrong, but I believe that the overclock is done in one of two ways - either by setting the DJMEMCjr pins as outputs and driving the clock speed pins on the clock generator, overriding the pull-up / pull-down resistors (as fitted), or, the advanced mode (offering greater granularity), serially shifts parameters into the clock generator. The first method only allows 20, 25, 33 or 40MHz, but appears to be compatible with more machines.
+
 This Extension / Control Panel pair allows you to overclock the LC 475 and similar machines in software. It builds on the work of Mustermann, zigzagjoe and cheesestraws from the 68kmla forums. With input from Arbee and Bolle.
 
 I have made a version of zigzagjoe's extension that...
