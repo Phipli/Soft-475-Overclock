@@ -1,0 +1,1 @@
+This is a CodeWarrior Pro 4 project.This is the Extension for the Soft 475 Overclock project.
