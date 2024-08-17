@@ -2,9 +2,9 @@
 This Extension / Control Panel pair allows you to overclock the LC 475 and similar machines in software. It builds on the work of Mustermann, zigzagjoe and cheesestraws from the 68kmla forums. With input from Arbee and Bolle.
 
 I have made a version of zigzagjoe's extension that...
-> Loads an icon at boot, using cheesestraws Force32 as a code example.
-> Is able to switch between a number of pre-selected speeds based on the contents of the "SPD!" resource.
-> Ensures that the computer is in 32bit addressing mode (and doesn't run if it isn't).
+- Loads an icon at boot, using cheesestraws Force32 as a code example.
+- Is able to switch between a number of pre-selected speeds based on the contents of the "SPD!" resource.
+- Ensures that the computer is in 32bit addressing mode (and doesn't run if it isn't).
 
 I have also written a little program (it isn't a true Control Panel, but imagine it is) that gives a user interface to easily select from a few speeds, namely 0 (off - the extension disables itself), 20, 25, 33 and 40MHz. It additionally allows you to enter a target speed and automagically calculates the parameters needed, or lets you manually enter your own set of parameters. *I'm told that these latter features work on some LC 475s, but for an unknown reason, this does not work on my LC 475*. As such, this means I haven't been able to test this functionality. The issue seems to be that the setlong function does not work on my LC.
 
