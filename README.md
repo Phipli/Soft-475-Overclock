@@ -1,4 +1,7 @@
 # Soft-475-Overclock
+
+Download the installer here : https://github.com/Phipli/Soft-475-Overclock/releases/download/v0.5.1-beta/Soft_475_Overclock_051.bin
+
 If you wish to compile this project on the classic Mac OS, you can use either the .hqx or MacBinary versions. Github modifies files by changing newlines to a different format, and also these files have resource forks, so they had to be protected by wrapping as hqx or .bin will. I'm not sure what the best way of managing this is, so I've done multiple things to ensure that while messy, the data is preserved.
 
 I may be wrong, but I believe that the overclock is done in one of two ways - either by setting the DJMEMCjr pins as outputs and driving the clock speed pins on the clock generator, overriding the pull-up / pull-down resistors (as fitted), or, the advanced mode (offering greater granularity), serially shifts parameters into the clock generator. The first method only allows 20, 25, 33 or 40MHz.
