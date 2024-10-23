@@ -9,7 +9,7 @@ Notice regarding this repository -
 Updating this repository is a nightmare for a mixture of reasons. The files are contained in an emulator and so I can't straight up sync the folders.
 The files are in formats that will be damaged in multiple ways if I just upload them directly (resource forks and flags will be erased, and linefeeds will be modified to an incorrect format).
 
-Given this, I'm having to put the files in wrappers, as such. Don't consider the version history to be normal and proper. This is just a bucket to contain the latest source files. I'm sorry if this isn't how things are meant to be done - github really isn't set up for vintage mac projects.
+Given this, I'm having to put the files in wrappers, as such, don't consider the version history to be normal and proper. This is just a bucket to contain the latest source files. I'm sorry if this isn't how things are meant to be done - github really isn't set up for vintage mac projects.
 ______________
 
 If you wish to compile this project on the classic Mac OS, you can use either the .hqx or MacBinary versions. Github modifies files by changing newlines to a different format, and also these files have resource forks, so they had to be protected by wrapping as hqx or .bin will. I'm not sure what the best way of managing this is, so I've done multiple things to ensure that while messy, the data is preserved.
