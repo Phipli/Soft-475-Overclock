@@ -10,7 +10,7 @@ I may be wrong, but I believe that the overclock is done in one of two ways - ei
 
 This Extension / Control Panel pair allows you to overclock the LC 475 and similar machines in software. It builds on the work of Mustermann, zigzagjoe and cheesestraws from the 68kmla forums. With input from Arbee, Mr.Fahrenheit and Bolle.
 
-I have made a version of zigzagjoe's extension that...
+I have made an extension that...
 - Loads an icon at boot, using cheesestraws Force32 as a code example.
 - Is able to switch between a number of pre-selected speeds based on the contents of the "SPD!" resource.
 - Ensures that the computer is in 32bit addressing mode (and doesn't run if it isn't).
